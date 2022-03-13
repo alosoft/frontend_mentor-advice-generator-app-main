@@ -48,7 +48,7 @@ Click dice to get a new advice
 
 ### What I learned
 
-It was fun messing with the transform and transition properties. I got to add animations to this app which is something I don't usually do. Moving forward I'll make it a habbit
+It was fun messing with the animation properties. I got to add animations to this app which is something I don't usually do. Moving forward I'll make it a habbit
 ## Author
 
 - Website - [Raymond Adutwum Agyei](https://corps-ai.herokuapp.com)

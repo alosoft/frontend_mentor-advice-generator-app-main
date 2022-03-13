@@ -56,11 +56,6 @@ body {
     font-size: var(--font-size);
 }
 
-.card__footer {
-    margin-bottom: 1rem;
-    width: 100%;
-}
-
 .card__dice {
     border-radius: 100%;
     background: var(--neon-green);
@@ -81,6 +76,53 @@ body {
     transition: all ease 1.5s;
 }
 
+.card__actions {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    gap: 0.2rem;
+    padding: 1rem;
+}
+
+.card__divider {
+    margin-bottom: 1rem;
+    flex: auto;
+    width: auto;
+}
+
+.card__divider-img {
+    width: 100%;
+}
+
+
+@keyframes bounce {
+   
+
+    33% {
+        transform: scale(1);
+    }
+
+    66% {
+        transform: scale(0.5);
+    }
+
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+.action {
+    width: 3rem;
+    flex: 1;
+    cursor: pointer;
+    animation-name: bounce;
+    animation-duration: 3s;
+    animation-delay: .5s;
+}
+
 @media screen and (max-width: 375px) {
     .card__title {
         font-size: 0.7rem;
@@ -90,7 +132,7 @@ body {
         font-size: 1.5rem;
     }
 
-    .card__footer {
+    .card__divider {
         margin-bottom: 1.6rem;
     }
 
